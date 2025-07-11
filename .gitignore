@@ -44,3 +44,8 @@ doc.html
 # Env files
 .env
 .env.*
+
+# -----------------------------------
+# Ignorar config de cada microservicio
+*/src/main/resources/application.yml
+*/src/main/resources/application.properties
